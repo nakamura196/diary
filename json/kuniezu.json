@@ -1,0 +1,20 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "bbb",
+    "@type": "sc:Collection",
+    "label": "国絵図の比較",
+    "vhint": "use-thumb",
+    "manifests": [
+      {
+        "@type": "sc:Manifest",
+        "@id": "https://api.cultural.jp/na/iiif/M1000000000000000475/manifest",
+        "label": "天保国絵図近江国",
+        "thumbnail": "https://api.cultural.jp/na/iiif/M1000000000000000475/full/256,/0/default.jpg"
+      },{
+        "@type": "sc:Manifest",
+        "@id": "https://purl.stanford.edu/hs631zg4177/iiif/manifest",
+        "label": "Ōmi Kuni-ezu -- 近江國絵圖",
+        "thumbnail": "https://stacks.stanford.edu/image/iiif/hs631zg4177%2Fhs631zg4177_00_0001/full/!400,400/0/default.jpg"
+      }
+    ]
+}
